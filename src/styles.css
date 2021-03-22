@@ -67,11 +67,12 @@ a {
 .Card {
   display: block;
   width: calc(100vw / 4);
-  min-width: 184px;
+  min-width: 300px;
   margin: 0.5rem;
   background: #fff;
   border-radius: 0.25rem;
   transition: all 0.3s ease-in;
+  border-radius: 20px;
 }
 
 .Card:hover {
