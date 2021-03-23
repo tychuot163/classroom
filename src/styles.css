@@ -4,41 +4,8 @@ body {
   margin: 0;
 }
 
-@font-face {
-  font-family: "Fakt Pro";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://github.com/awt2542/FramerSite/blob/master/static/css/fonts/FaktPro-Normal.eot"); /* IE9 Compat Modes */
-  src: url("https://github.com/awt2542/FramerSite/blob/master/static/css/fonts/FaktPro-Normal.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://github.com/awt2542/FramerSite/blob/master/static/css/fonts/FaktPro-Normal.woff")
-      format("woff"); /* Modern Browsers */
-}
-
-@font-face {
-  font-family: "Fakt Pro";
-  font-style: normal;
-  font-weight: 500;
-  src: url("https://github.com/awt2542/FramerSite/blob/master/static/css/fonts/FaktPro-Medium.eot"); /* IE9 Compat Modes */
-  src: url("https://github.com/awt2542/FramerSite/blob/master/static/css/fonts/FaktPro-Medium,.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://github.com/awt2542/FramerSite/blob/master/static/css/fonts/FaktPro-Medium.woff")
-      format("woff"); /* Modern Browsers */
-}
-
-@font-face {
-  font-family: "Fakt Pro";
-  font-style: normal;
-  font-weight: 700;
-  src: url("https://github.com/awt2542/FramerSite/blob/master/static/css/fonts/FaktPro-SemiBold.eot"); /* IE9 Compat Modes */
-  src: url("https://github.com/awt2542/FramerSite/blob/master/static/css/fonts/FaktPro-SemiBold.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://github.com/awt2542/FramerSite/blob/master/static/css/fonts/FaktPro-SemiBold.woff")
-      format("woff"); /* Modern Browsers */
-}
-
 a {
-  font-family: "Fakt Pro", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family    : 'Montserrat', sans-serif !important;
   font-size: 14px;
   color: rgb(10, 132, 174);
   text-decoration: none;
@@ -46,10 +13,9 @@ a {
 }
 
 .App {
-  height: 100vh;
   padding: 1rem;
   margin: 0;
-  background: #f9f9f9;
+  background-image: url(https://i.imgur.com/aGfLJSY.png);
 }
 
 .Container {
@@ -66,17 +32,18 @@ a {
 
 .Card {
   display: block;
-  width: calc(100vw / 4);
+  width: calc(100vw / 5);
   min-width: 300px;
+  min-height: 300px;
   margin: 0.5rem;
-  background: #fff;
   border-radius: 0.25rem;
   transition: all 0.3s ease-in;
   border-radius: 20px;
+  background-image: url(https://i.imgur.com/ZZ9JX2g.png);
 }
 
 .Card:hover {
-  box-shadow: 0px 22px 24px 0px rgba(46, 51, 51, 0.07);
+  box-shadow: 0px 22px 24px 0px rgb(6 0 0 / 88%);
   transition: all 0.3s ease-out;
 }
 
@@ -121,19 +88,19 @@ a {
 }
 
 .Title {
-  font-family: "Fakt Pro", -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 1em;
+  font-family    : 'Montserrat', sans-serif !important;
+  font-size: 20px;
+  margin: auto;
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: normal;
   overflow-wrap: normal;
   text-align: center;
-  color: rgb(33, 33, 33);
-  padding: 0 1.5rem;
+  color: #fff;
 }
 
 .Description {
-  font-family: "Fakt Pro", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family    : 'Montserrat', sans-serif !important;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.6;
@@ -141,8 +108,12 @@ a {
   overflow-wrap: normal;
   text-align: center;
   color: white;
-  padding: 0.75rem 1rem 1.5rem 1rem;
-  background-image: url(https://i.imgur.com/Li42eBv.png);
+  margin: auto;
+  width: 222px;
+  background: rgba(38,18,12,0.62);
+  padding: 7px 6px 12px 7px;
+  margin-left: 41px;
+  border-radius: 20px;
 }
 
 .Actions {
@@ -151,6 +122,7 @@ a {
   justify-content: space-between;
   border-top: 1px solid rgb(208, 210, 211, 0.4);
   margin: 0 1rem;
+  float: right;
   padding: 1rem 0;
 }
 
