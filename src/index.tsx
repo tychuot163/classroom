@@ -10,10 +10,14 @@ function App() {
         <div className="CardStack">
           <div className="Card">
             <div className="AvatarWrap">
-              <img className="Avatar" src="https://bit.ly/2sPR8Cu" alt="" />
+              <img
+                className="Avatar"
+                src="https://i.imgur.com/rkg8nKE.png"
+                alt=""
+              />
               <div className="StatusOn" />
             </div>
-            <div className="Title">Facebook</div>
+            <div className="Title">Anh văn lớp K23t</div>
             <div className="Description">
               Connect Facebook as a social media connection for your
               application.
@@ -29,10 +33,14 @@ function App() {
           </div>
           <div className="Card">
             <div className="AvatarWrap">
-              <img className="Avatar" src="https://bit.ly/2sPR8Cu" alt="" />
+              <img
+                className="Avatar"
+                src="https://i.imgur.com/rkg8nKE.png"
+                alt=""
+              />
               <div className="StatusOff" />
             </div>
-            <div className="Title">Twitter</div>
+            <div className="Title">Anh văn lớp K23t</div>
             <div className="Description">
               Connect Twitter as a social media connection for your application.
             </div>
@@ -47,10 +55,14 @@ function App() {
           </div>
           <div className="Card">
             <div className="AvatarWrap">
-              <img className="Avatar" src="https://bit.ly/2sPR8Cu" alt="" />
+              <img
+                className="Avatar"
+                src="https://i.imgur.com/rkg8nKE.png"
+                alt=""
+              />
               <div className="StatusOff" />
             </div>
-            <div className="Title">Twitter</div>
+            <div className="Title">Anh văn lớp K23t</div>
             <div className="Description">
               Connect Twitter as a social media connection for your application.
             </div>
